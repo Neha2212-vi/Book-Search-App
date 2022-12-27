@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(90, 148, 155);
+}
+
+.heading {
+  text-align: center;
+  background: rgb(9, 60, 65);
+  color: white;
+  border-bottom: 2px solid white;
+  padding: 5px;
+}
+
+.serach_bar {
+  width: 400px;
+  height: 29.5px;
+  position: relative;
+  top: 31px;
+  left: 35%;
+  background: white;
+  border: 2px solid white;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 4px;
+  outline: none;
+}
+
+.btn {
+  height: 42px;
+  position: relative;
+  left: 35%;
+  top: 31px;
+  padding: 6px;
+  align-self: center;
+  background: rgb(90, 148, 155);
+  border: 2px solid white;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 26px;
+}
+.search{
+  display: flex;
+  flex-direction: row;
+}
+.img{
+  width: 100px;
+  position: relative;
+  top: 100px;
+  margin-left: 20px;
+}
